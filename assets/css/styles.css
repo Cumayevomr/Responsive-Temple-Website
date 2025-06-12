@@ -305,9 +305,42 @@ img {
     top: 6.5rem;
     right: 4rem;
   }
+  .home__lantern-2{
+    left: initial;
+    right: 14rem;
+    bottom: -3.5rem;
+  }
+
+  ::-webkit-scrollbar{
+    width: .6rem;
+    background-color: hsl(353, 12%, 10%);
+  }
+  ::-webkit-scrollbar{
+    background-color: hsl(353, 12%, 25%);
+  }
 }
 
 /* For 2K resolutions (2048 x 1152) */
+@media screen and (min-width: 2048px) and (min-height: 1100px) {
+  .container{
+    max-width: 1300px;
+  }
 
+  .home__container{
+    height: 100vh;
+    display: grid;
+  }
+  .home__data{
+    align-self: center;
+  }
+}
 
 /* For taller devices */
+@media screen and (max-width: 1150px) and (min-height: 900px){
+  .home__container{
+    display: grid;
+  }
+  .home__data{
+    align-self: center;
+  }
+}
