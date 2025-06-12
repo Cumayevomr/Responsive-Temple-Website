@@ -182,7 +182,47 @@ img {
   z-index: var(--z-tooltip);
 }
 
+.home__title{
+  font-size: var(--biggest-font-size);
+  margin-bottom: 1rem;
+}
 
+.home__description{
+  font-weight: var(--font-medium);
+  margin-bottom: 2rem;
+}
+
+.home__button{
+  display: inline-flex;
+  background: var(--gradient-color);
+  color: var(--black-color);
+  font-weight: var(--font-semi-bold);
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  transition: box-shadow .4s;
+}
+
+.home__button:hover{
+  box-shadow: 0 16px 48px hsla(353, 90%, 56%, .4);
+}
+
+.home__lantern-1,
+.home__lantern-2{
+  position: absolute;
+  width: 50px;
+}
+
+.home__lantern-1{
+  top: 2.5rem;
+  right: .5rem;
+  rotate: 15deg;
+}
+
+.home__lantern-2{
+  left: .75rem;
+  bottom: -5rem;
+  rotate: -15deg;
+}
 
 /* Sakura petals */
 
